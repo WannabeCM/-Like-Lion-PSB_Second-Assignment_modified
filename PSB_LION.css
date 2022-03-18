@@ -95,9 +95,13 @@ body {
 
 /* 4.2 로그인 상태 유지  */
 .login_status {
+  display: flex;
   margin-bottom: 20px;
   opacity: 0.8;
   cursor: pointer;
+}
+.login_status a {
+  padding-left: 5px;
 }
 .login_status img {
   width: 13px;
